@@ -26,7 +26,9 @@
   endif
 "}}}
 " {{{ Colors
-  let s:base00 = ['#1b2b34', '235']
+  let s:base00 = ['#1b2b34', '234']
+  let s:base001 = ['#223642', '235']
+  let s:base002 = ['#29414f', '236']
   let s:base01 = ['#343d46', '237']
   let s:base02 = ['#4f5b66', '240']
   let s:base03 = ['#65737e', '243']
@@ -98,14 +100,14 @@ endfunction
   call s:hi('EndOfBuffer',                        s:base05, s:base00, '',          '')
   call s:hi('LineNr',                             s:base03, s:base00, '',          '')
   call s:hi('SignColumn',                         s:base00, s:base00, '',          '')
-  call s:hi('StatusLine',                         s:base01, s:base03, '',          '')
-  call s:hi('StatusLineNC',                       s:base03, s:base01, '',          '')
+  call s:hi('StatusLine',                         s:base01, s:base04, '',          '')
+  call s:hi('StatusLineNC',                       s:base001, s:base03, '',          '')
   call s:hi('VertSplit',                          s:base00, s:base02, '',          '')
   call s:hi('ColorColumn',                        '',       s:base01, '',          '')
   call s:hi('CursorColumn',                       '',       s:base01, '',          '')
-  call s:hi('CursorLine',                         '',       s:base01, 'None',      '')
-  call s:hi('CursorLineNR',                       s:base00, s:base00, '',          '')
-  call s:hi('CursorLineNr',                       s:base03, s:base01, '',          '')
+  call s:hi('CursorLine',                         '',       s:base001, 'None',      '')
+  call s:hi('CursorLineNR',                       s:base00, s:base001, '',          '')
+  call s:hi('CursorLineNr',                       s:blue, s:base001, '',          '')
   call s:hi('PMenu',                              s:base04, s:base01, '',          '')
   call s:hi('PMenuSel',                           s:base07, s:blue,   '',          '')
   call s:hi('PmenuSbar',                          '',       s:base02, '',          '')
