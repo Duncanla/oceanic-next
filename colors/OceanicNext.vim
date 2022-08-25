@@ -100,7 +100,7 @@ endfunction
   call s:hi('EndOfBuffer',                        s:base05, s:base00, '',          '')
   call s:hi('LineNr',                             s:base03, s:base00, '',          '')
   call s:hi('SignColumn',                         s:base00, s:base00, '',          '')
-  call s:hi('StatusLine',                         s:base01, s:base04, '',          '')
+  call s:hi('StatusLine',                         s:base01, s:base07, '',          '')
   call s:hi('StatusLineNC',                       s:base001, s:base03, '',          '')
   call s:hi('VertSplit',                          s:base00, s:base02, '',          '')
   call s:hi('ColorColumn',                        '',       s:base01, '',          '')
